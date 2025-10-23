@@ -16,7 +16,7 @@ sudo apt install -y clang llvm libbpf-dev linux-headers-$(uname -r)
 # Debian/Ubuntu quirk: ensure asm headers are reachable
 sudo ln -sf /usr/include/asm-generic /usr/include/asm
 
-```wlp0s20f3
+```
 
 ### macOS
 
