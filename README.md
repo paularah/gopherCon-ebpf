@@ -32,6 +32,10 @@ Start a Lima VM using the config file
 
 This config file essentially replicates the ubuntu environment for ebpf development in a VM
 
+## Compile and run the ebpf code & userspace Go code
+
+`go build && sudo ./ebpf-test`
+
 ## Learn More
 
 * [ebpf.io](https://ebpf.io/)
