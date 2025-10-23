@@ -32,7 +32,10 @@ Start a Lima VM using the config file
 
 This config file essentially replicates the ubuntu environment for ebpf development in a VM
 
+
 ## Compile and run the ebpf code & userspace Go code
+
+List the interfaces on your pc using `ip -br a`, then change the `ifname` variable to a active interface. THe eBPF program is now attaced this interface.
 
 `go build && sudo ./ebpf-test`
 
